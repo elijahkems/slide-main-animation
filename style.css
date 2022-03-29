@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid;
+  height: 70vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.square {
+  border: 2px solid red;
+  background-color: peachpuff;
+  width: calc(100% / 2);
+}
+
+.extra {
+  margin: 1em;
+  padding: 1em;
+  min-height: 100px;
+}
